@@ -3,7 +3,7 @@
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
 ```
-npx create-remix --template ostwilkens/minimal-stack
+npx create-remix --template ostwilkens/remix-minimal-stack
 ```
 
 ## What's in the stack
