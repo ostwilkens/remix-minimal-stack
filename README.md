@@ -30,8 +30,8 @@ This starts your app in development mode, rebuilding assets on file changes.
 ## Build & run docker image
 
 ```bash
-docker build -t folk-stack .
-docker run -p 3000:3000 folk-stack
+docker build -t minimal-stack .
+docker run -p 3000:3000 minimal-stack
 ```
 
 Deploy on host of your choice. 
