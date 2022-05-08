@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Scripts } from 'remix'
+import { Scripts } from "@remix-run/react";
 
 function App() {
   const [count, setCount] = React.useState(0)
@@ -9,7 +9,7 @@ function App() {
         <title>Minimal Remix App</title>
       </head>
       <body>
-        <p>This is a minimal remix app.</p>
+        <p>This is a minimal remix app!</p>
         <button onClick={() => setCount(c => c + 1)}>{count}</button>
         <Scripts />
       </body>
